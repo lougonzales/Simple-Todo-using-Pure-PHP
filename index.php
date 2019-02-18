@@ -39,7 +39,7 @@
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <button type="button" class="btn btn-success">Edit</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
+                                <a href="delete_todo.php?id=<?= $row['id']?>" class="btn btn-danger">Delete</a>
                             </div>
                         </td>
                     </tr>
